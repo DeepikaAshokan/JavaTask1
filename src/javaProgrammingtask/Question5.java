@@ -7,11 +7,11 @@ public class Question5 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Enter the mark");
 
 		int m = sc.nextInt();
-		
+
 		switch (m/10){
 
 		case 10:

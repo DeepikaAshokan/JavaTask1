@@ -1,43 +1,46 @@
+package exception1;
+
 import java.util.Scanner;
 
 public class Exceptions {
 
 	public static void main(String[] args) {
 
+		System.out.println("Enter 2 numbers:");
+
 		Scanner sc = new Scanner(System.in);
 
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-	//	char ch = null;
-	//	String a[] = { "deepika", "siana", "hari" };
-		String s = null;
+		String ch = null;
+		String at[] = { "deepika", "siana", "hari" };
+		String s = "Hareram";
 
 		try {
 			int div = a / b;
-
-			System.out.println("division of 2 numbers are: " + div);
-			System.out.println(s.length());
-			//System.out.println(a[3]);
+			System.out.println(div);
+			System.out.println(ch.length());
+			System.out.println(at[2]);
 			System.out.println(s.charAt(5));
 		}
 
 		catch (ArithmeticException ae) {
-			System.out.println("Give values other than 0");
+			System.out.println("Give values other than 0 - ARitHMETIC");
 		}
 
 		catch (NullPointerException ne) {
 
-			System.out.println("Enter a valid number");
+			System.out.println("NULL exp");
 		}
 
 		catch (ArrayIndexOutOfBoundsException ab) {
 
-			System.out.println("enter the Array numbers");
+			System.out.println("Array EXP");
 		}
 
 		catch (StringIndexOutOfBoundsException sb) {
 
-			System.out.println("enter only numbers not strings");
+			System.out.println("Strings EXP");
 		}
 
 		catch (Exception e) {

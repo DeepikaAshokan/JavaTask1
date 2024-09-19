@@ -1,3 +1,4 @@
+package exception1;
 
 class DummyException extends Exception {
 
@@ -12,7 +13,7 @@ class DummyException extends Exception {
 		public static void main(String[] args) {
 
 			try {
-				drive(17);
+				drive(20);
 			} catch (Exception e) {
 
 				System.out.println("Age must be 18");

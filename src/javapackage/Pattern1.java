@@ -9,7 +9,7 @@ public class Pattern1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the row no:");
 		int a = sc.nextInt();
-		
+
 	for (int i = 1; i <= a; i++) {
 
 			for (int j = 1; j <= i; j++) {

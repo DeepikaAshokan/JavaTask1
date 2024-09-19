@@ -11,7 +11,7 @@ public class Question4 {
 		System.out.println("Enter the number of rows");
 
 		int r = sc.nextInt();
-		
+
 		int c = 2;
 
 		for (int i = 1; i <= r; i++) {

@@ -2,7 +2,7 @@ package javaOOPS;
 
 public class Person {
 
-	String name; 
+	String name;
 	int age;
 
 	public void setValue(String name, int age) {
